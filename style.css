@@ -29,7 +29,14 @@ h1{
     flex-wrap: wrap;
     justify-content: center;
     margin: 0px auto;
-    
+}
+
+#organizar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0px auto; 
+    gap: 8px;
 }
 
 #sessao-vend{
@@ -37,7 +44,7 @@ h1{
     text-align: center;
 }
 
-#botao{
+.botao{
     margin: 20px 0px;
     background-color: rgb(56, 122, 245);
     border: 3px solid rgb(89, 116, 140);
